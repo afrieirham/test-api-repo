@@ -59,8 +59,11 @@ Body
 PATCH /repos/{{owner}}/{{repo}}/git/refs/heads/{{branch}}
 ```
 
+Body
+```json
 {
   "sha": "{{commit_sha}}"
 }
+```
 
 DONE! 🥳
